@@ -2,21 +2,21 @@ let input = document.querySelector("input");
 let button = document.querySelector("button");
 let a = 0;
 button.onclick = function() {
-    let number = 8;
-    let inputUser = input.value;
+    let so = 8;
+    let nhap = input.value;
     a++;
-    if (inputUser < 0 || inputUser > 10) {
+    if (nhap < 0 || nhap > 10) {
         input.value = "";
         alert("Bạn đã nhập sai mời bạn nhập lại số từ 0 đến 10");
         a = 0;
     } else {
-        if (inputUser == number) {
+        if (nhap == so) {
             alert("chúc mừng bạn đã đoán đúng");
         }
-        if (inputUser != number) {
+        if (nhap != so) {
             input.value = "";
             if (a < 3) {
-                inputUser = "";
+                nhap = "";
                 alert(`kết quả sai`);
             }
             if (a >= 3) {
