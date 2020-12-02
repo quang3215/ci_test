@@ -1,0 +1,33 @@
+# {
+    background-color: red;
+    text-align: center;
+}
+
+#a {
+    height: 200px;
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgb(255, 254, 251);
+}
+
+#a1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+#a2 {
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+#a3 {
+    display: flex;
+    justify-content: center;
+}
+
+#a4 {
+    padding: 10px;
+    width: 200px;
+    outline: none;
+}

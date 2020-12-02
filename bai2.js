@@ -29,10 +29,12 @@ function merge2String(Chain1, Chain2) {
             tempString += s2[i];
         }
 
-        for (let j = s2l; j > s1l; j++) {
+        for (let j = s2l; j < s1l; j++) {
             tempString += s1[j];
         }
         return tempString;
     }
 };
+console.log(merge2String("abc", "123"));
+console.log(merge2String("abc", "0123"));
 console.log(merge2String("abcd", "123"));
